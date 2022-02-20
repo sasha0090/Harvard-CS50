@@ -39,6 +39,10 @@ int main(void)
         {
             printf(".");
         }
+        for ()
+        {
+            
+        }
         printf("\n");
     }
 }
