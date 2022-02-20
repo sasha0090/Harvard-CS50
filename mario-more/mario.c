@@ -35,7 +35,7 @@ int main(void)
         }
 
         int distance_gaps = 2;
-        for (i=0;i<distance_gaps;i++)
+        for (int j=0;j<distance_gaps;j++)
         {
             printf(" ");
         }
