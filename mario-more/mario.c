@@ -39,6 +39,7 @@ int main(void)
         {
             printf(" ");
         }
+
         for (int j = 0; j < line; j++)
         {
             printf("#");
