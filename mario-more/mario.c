@@ -33,8 +33,12 @@ int main(void)
                 printf("#");
             }
         }
-        
-        for (i=0)
+
+        int distance_gaps = 2;
+        for (i=0;i<distance_gaps;i++)
+        {
+            printf(" ");
+        }
         printf("\n");
     }
 }
