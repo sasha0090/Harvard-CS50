@@ -37,7 +37,8 @@ int main(void)
 
 int get_cents(void)
 {
-    while (true){
+    while (true)
+    {
         int cents = get_int("How many cents do you have? ");
         if (cents >= 0)
         {
