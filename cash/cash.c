@@ -38,8 +38,8 @@ int main(void)
 int get_cents(void)
 {
     while (true){
-        cents = get_int("");
-        if (cents>=0)
+        int cents = get_int("How many cents do you have? ");
+        if (cents >= 0)
         {
             return cents;
         }
@@ -48,7 +48,7 @@ int get_cents(void)
 
 int calculate_quarters(int cents)
 {
-    return cents / 25
+    return cents / 25;
 }
 
 int calculate_dimes(int cents)
