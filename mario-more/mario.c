@@ -33,6 +33,8 @@ int main(void)
                 printf("#");
             }
         }
+        
+        for (i=0)
         printf("\n");
     }
 }
